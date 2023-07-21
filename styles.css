@@ -74,14 +74,14 @@ body {
   
   .idea-list p {
     font-size: 16px;
-    color: white; /* Add white color for descriptions */
+    color: var(--clr-neutral-900);
     margin-top: 5px;
   }
   
   .subheading {
     font-size: 16px;
     font-weight: bold;
-    background: var(--clr-accent-400);
+    background: white;
     margin-top: 5px;
     display: none;
   }
