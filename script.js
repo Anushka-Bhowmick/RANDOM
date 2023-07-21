@@ -50,9 +50,6 @@ const ideasByTopic = {
       { idea: "Design a robot for underwater exploration and data collection.", description: "Explore and map the depths of oceans for scientific research and marine conservation." },
     ],
   };
-  
-  // ... (ideasByTopic and other functions remain the same)
-
 function generateIdeas() {
     const topic = document.getElementById("topicSelect").value;
     const ideas = ideasByTopic[topic];
@@ -89,10 +86,6 @@ function generateIdeas() {
   
     ideaContainer.appendChild(ideaList);
   }
-  
-  // ... (rest of the code remains the same)
-  
-  
   function shuffleArray(array) {
     const shuffledArray = [...array];
     for (let i = shuffledArray.length - 1; i > 0; i--) {
