@@ -1,3 +1,3 @@
 # RANDOM
 
-https://anushkabhowmick.github.io/RANDOM/
+https://anushka-bhowmick.github.io/RANDOM/
