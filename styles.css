@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #00f0ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #00f0ff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00f0ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0088cc;
+  }
+  
+  .idea-container {
+    margin-top: 40px;
+  }
+  
+  .idea {
+    font-size: 18px;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .description {
+    color: white;
+  }
+  
+  .idea-label {
+    font-weight: bold;
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .idea-description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .idea-list {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .idea-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .idea-list p {
+    font-size: 16px;
+    color: white; /* Add white color for descriptions */
+    margin-top: 5px;
+  }
+  
+  .subheading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0088cc;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .show-description .subheading {
+    display: block;
+  }
+  
+  .idea-list li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #0088cc;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .arrow-up {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #0088cc;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
