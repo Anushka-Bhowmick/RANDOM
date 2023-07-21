@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #00f0ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #00f0ff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00f0ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0088cc;
+  }
+  
+  .idea-container {
+    margin-top: 40px;
+  }
+  
+  .idea {
+    font-size: 18px;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .description {
+    color: white;
+  }
+  
