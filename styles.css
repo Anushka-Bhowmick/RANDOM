@@ -1,7 +1,13 @@
+:root{
+  --clr-neutral-900: hsl(214, 18%, 8%);
+  --clr-neutral-100: hsl(0,0%,100%);
+  --clr-accent-400: hsl(199, 77%, 55%);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: #00f0ff;
+    font-family: Poppins;
+    background:var(--clr-neutral-900);
+    color: #1d9cc6;
     margin: 0;
     padding: 0;
   }
@@ -12,13 +18,13 @@ body {
   }
   
   h1 {
-    color: #00f0ff;
+    color: #4496d5;
   }
   
   button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #00f0ff;
+    background: var(--clr-accent-400);
     color: white;
     border: none;
     cursor: pointer;
@@ -27,7 +33,7 @@ body {
   }
   
   button:hover {
-    background-color: #0088cc;
+    background: var(--clr-accent-400);
   }
   
   .idea-container {
@@ -46,13 +52,13 @@ body {
   
   .idea-label {
     font-weight: bold;
-    font-family: "Arial Black", sans-serif;
+    font-family: Poppins;
     font-size: 20px;
     margin-bottom: 5px;
   }
   
   .idea-description {
-    font-family: Arial, sans-serif;
+    font-family: Poppins;
     font-size: 16px;
     margin-bottom: 20px;
   }
@@ -68,14 +74,14 @@ body {
   
   .idea-list p {
     font-size: 16px;
-    color: white; /* Add white color for descriptions */
+    color: var(--clr-neutral-900);
     margin-top: 5px;
   }
   
   .subheading {
     font-size: 16px;
     font-weight: bold;
-    color: #0088cc;
+    background: white;
     margin-top: 5px;
     display: none;
   }

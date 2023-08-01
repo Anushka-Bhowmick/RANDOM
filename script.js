@@ -60,6 +60,8 @@ const ideasByTopic = {
         { idea: "Disease Outbreak Prediction", description: "Build a model that predicts the likelihood and spread of infectious diseases based on factors like climate data, population density, and historical outbreak patterns, aiding in early detection and response planning." },
       ],
     robotics: [
+        { idea: "Autonomous Line Following Robot", description: "Design and build an autonomous robot capable of following a line on the ground without human intervention. The robot will be equipped with sensors and actuators that allow it to sense the line and adjust its movements accordingly to stay on the path." },
+        { idea: "Firefighting Robot", description: "Design a robot capable of detecting and extinguishing fires. Use infrared sensors to locate fires and actuators like a water pump to extinguish them." },
         { idea: "Autonomous Navigation Robot", description: "Build a robot capable of autonomously navigating through a given environment, avoiding obstacles, and reaching a specific destination using sensors like ultrasonic, infrared, or lidar." },
         { idea: "Robotic Arm with Object Manipulation", description: "Develop a robotic arm capable of picking and placing objects with precision. Implement computer vision techniques to identify objects and use feedback control to perform accurate manipulations." },
         { idea: "Swarm Robotics", description: "Create a group of small robots that can communicate and cooperate with each other to accomplish a collective task, such as formation control, exploration, or object transportation." },
@@ -67,9 +69,23 @@ const ideasByTopic = {
         { idea: "Robot for Home Automation", description: "Construct a robot that can control various smart devices in a home environment, such as lights, thermostats, or security systems. Implement voice or gesture recognition for intuitive user interaction." },
         { idea: "Robotic Exoskeleton", description: "Develop a wearable robotic exoskeleton that assists individuals with limited mobility in performing daily activities or rehabilitation exercises. Explore the integration of sensors and actuators for motion support." },
         { idea: "Agricultural Robot", description: "Build a robot designed for agricultural applications, such as crop monitoring, planting, or harvesting. Incorporate sensors, computer vision, and autonomous navigation capabilities to optimize farming processes." },
-        { idea: "Drone Swarm Project", description: "Create a coordinated swarm of drones capable of performing tasks like aerial mapping, search and rescue missions, or package delivery. Focus on communication, coordination, and path planning algorithms." },
-        { idea: "Robot for Education", description: "Design an educational robot that can teach programming, robotics concepts, or other STEM subjects to students. Provide a user-friendly interface and interactive learning experiences." },
-        { idea: "Robot for Healthcare Assistance", description: "Develop a robot that assists healthcare professionals in tasks like patient monitoring, medication delivery, or elder care. Ensure safety, privacy, and effective human-robot interaction in healthcare settings." },
+        { idea: "Drone Swarm Project", description: "Create a coordinated swarm of drones capable of performing tasks like aerial mapping, search and rescue missions, or package delivery. Focus on communication, coordination, and path planning algorithms" },
+        { idea: "Robot for Education", description: "Design an educational robot that can teach programming, robotics concepts, or other STEM subjects to students. Provide a user-friendly interface and interactive learning experiences" },
+        { idea: "Robot for Healthcare Assistance", description: "Develop a robot that assists healthcare professionals in tasks like patient monitoring, medication delivery, or elder care. Ensure safety, privacy, and effective human-robot interaction in healthcare settings" },
+      ],
+      iot: [
+        { idea: "Environmental Monitoring", description: "Create a sensor network to monitor environmental parameters like temperature, humidity, air quality, and soil moisture"},
+        { idea: "Smart Energy Management", description: "Design a solution to monitor and optimize energy usage in homes or commercial buildings. Use IoT sensors to track energy consumption and control appliances to reduce wastage and save energy"},
+        { idea: "Healthcare Monitoring Devices", description: "Build wearable IoT devices that track vital signs like heart rate, blood pressure, and body temperature. This data can be transmitted to healthcare professionals for remote monitoring of patients"},
+        { idea: "Smart Pet Feeders", description: " Build an automated pet feeding system that dispenses food based on schedule or remotely controlled through a mobile app, ensuring pets are fed even when the owners are away"},
+        { idea: "Smart Wearables", description: "Design IoT-enabled wearable devices like fitness trackers or smartwatches that integrate health monitoring, activity tracking, and smart notifications"}, 
+      ],
+      cloud: [
+        { idea: "Cloud-Based File Sharing and Storage Platform", description: "Create a cloud storage and file-sharing platform similar to Dropbox or Google Drive. Allow users to upload, access, and share files securely over the internet"},
+        { idea: "Cloud-Based Collaboration Tools", description: "Develop cloud-based collaboration tools like real-time document editing, task management, and video conferencing to enhance team productivity and remote work"},
+        { idea: "Cloud-Based Machine Learning Platform", description: "Develop a cloud-based platform that allows users to train and deploy machine learning models without the need for extensive hardware resources"},
+        { idea: "Cloud-Based Virtual Classroom", description: " Create a cloud-based virtual classroom platform that facilitates online learning with features like video conferencing, interactive whiteboards, and content sharing"},
+        { idea: "Cloud-Based Sentiment Analysis", description: "Build a cloud-based sentiment analysis tool that analyzes text data from social media or customer reviews to gauge public opinion about products, services, or events"}, 
       ],
   };
   
